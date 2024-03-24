@@ -129,7 +129,7 @@ def extract_text(file):
     combined_content = ""
 
     # Open the file in read mode
-    with open("recognized.txt", "r") as file:
+    with open("extracted_text.txt", "r") as file:
         # Read lines one by one and concatenate them
         for line in file:
             combined_content += line.strip() + " "
